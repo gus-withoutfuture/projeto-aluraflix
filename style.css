@@ -1,0 +1,47 @@
+body {
+    font-family: "Chakra Petch", sans-serif;
+    color: rgb(167 167 167);
+    background: rgb(0, 0, 0);
+    margin: 0px;
+    margin-bottom: 120px;
+}
+header {
+    border-bottom: solid 3px rgb(89 5 5);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(255, 53, 46)
+}
+.vídeo-em-destaque {
+    background: rgb(139 3 3);
+    padding-bottom: 80px;
+    padding-top:80px;
+    display: flex;
+    justify-content: center;
+}
+.chamada-texto {
+    margin-right: 5%;
+}
+h1 {
+    font-size: 40px;
+}
+.filmes-e-séries {
+    display: flex;
+    overflow-x: auto;
+    gap: 24px;
+}
+.aba-de-sugestões {
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.aba-de-sugestões img {
+    opacity: 0.5;
+    height: 250px;
+}
+.aba-de-sugestões img:hover {
+    opacity: 1.0;
+    border: solid 8px rgb(119, 136, 153);
+}
+.aba-de-sugestões h2 {
+    color: rgb(255, 53, 46);
+}
